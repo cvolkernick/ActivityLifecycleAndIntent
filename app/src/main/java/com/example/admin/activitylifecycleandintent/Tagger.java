@@ -5,4 +5,8 @@ package com.example.admin.activitylifecycleandintent;
  */
 
 public class Tagger {
+
+    public static String get(Object o) {
+        return o.getClass().getSimpleName();
+    }
 }
